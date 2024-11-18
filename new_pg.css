@@ -1,0 +1,198 @@
+*{
+    margin:0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  html{
+    scroll-behavior: smooth; 
+  }
+  
+  /* INICIO HEADER */
+  .nav{
+    background-color: #000000;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top:0;
+    z-index: 9; 
+  }
+  
+  .nav-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 28px;
+  }
+  
+  .nav-list a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+  }
+  
+  .nav-list a:hover{
+    color: #ffffff;
+  }
+  
+  #forma{
+    height: 766x;
+    width: 1150px;
+  }
+  /* FIM HEADER */
+  
+  
+/* INICIO MAIN */
+.man{
+  width: 100%;
+  background-color: black;
+  height: calc(100vh - 70px);
+  background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),
+  url("images/back2.png");
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+}
+
+.man h1{
+  color: #fafafa;
+  font-size: 70px;
+}
+
+.man p {
+  font-size: 40px;
+  font-style: italic;
+  color: #000000;
+  margin-top: 10px;
+  margin-bottom: 35px;
+}
+
+.call-to-action{
+  cursor: pointer;
+  background-color: #FFFFFF;
+  border:0;
+  padding: 14px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.7s;
+  font-family: 'Righteous';
+  font-family: 'Secular One', sans-serif;
+}
+
+.call-to-action:hover{
+  transform: scale(1.1);
+}
+
+.mann a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+/* FIM MAIN */
+
+/* Estilos básicos */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+#aulas {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+#aulas h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.aula {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  padding: 0;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para a div do vídeo */
+.video {
+  flex-shrink: 0;
+  width: 560px; /* Define o tamanho do vídeo */
+  height: auto;
+  margin-right: 2rem; /* Espaço entre o vídeo e o texto */
+}
+
+/* Estilos para o iframe */
+.video iframe {
+  width: 100%;
+  height: 315px;
+}
+
+/* Estilos para o conteúdo textual */
+.conteudo-texto {
+  flex-grow: 1;
+}
+
+.aula h3 {
+  margin: 0 0 1rem 0;
+}
+
+.aula p {
+  margin-bottom: 1rem;
+}
+
+/* Link de download */
+.aula a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.aula a:hover {
+  background-color: #45a049;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+footer a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
