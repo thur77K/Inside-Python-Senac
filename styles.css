@@ -261,3 +261,119 @@ footer p {
 #benefit-3 {
   background-image: url("images/sqr-3.PNG");
 }
+
+/* INICIO SOBRE O GRUPO */
+.group {
+  background-color: #f4f7f6;
+  padding: 60px 10%;
+  text-align: center;
+}
+
+.group h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.group p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.group-members {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.member {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.member img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.member h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.member p {
+  font-size: 16px;
+  color: #555;
+}
+
+@media screen and (max-width: 768px) {
+  .group-members {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .member {
+    width: 80%;
+  }
+}
+
+/* INICIO RODAPE */
+footer {
+  width: 100%;
+  background-color: #000000;
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;  /* Cor do texto alterada para branco */
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff;  /* Garantir que o link também tenha cor branca */
+}
+
+footer p {
+  margin-left: 40px;
+}
+/* FIM RODAPE */
+
+.cta {
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  padding: 80px 10%;
+}
+
+.cta h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.cta p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: #837a79; /* Cor de destaque */
+  color: #ffffff;
+  font-size: 18px;
+  padding: 14px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.cta-button:hover {
+  transform: scale(1.1);
+}
