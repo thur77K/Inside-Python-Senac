@@ -54,8 +54,8 @@
   width: 100%;
   background-color: black;
   height: calc(100vh - 70px);
-  background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),
-  url("images/back2.png");
+  background: linear-gradient(rgba(177,171,171,.8), rgba(197,174,174,.8)),
+  url("images/new_back.png");
   display: flex;
   align-items: center;
   padding-left: 10%;
